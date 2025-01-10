@@ -1,0 +1,12 @@
+
+To build the Docker Image:
+bash
+Copy code
+docker build -t my-node-app .
+
+Command to run the container and expose port 3000:
+bash
+Copy code
+docker run -p 3000:3000 my-node-app
+
+Now your Node.js application will be accessible at http://localhost:3000
